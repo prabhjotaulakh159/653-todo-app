@@ -10,5 +10,6 @@ A simple todo app where you can:
 - Register
 - Change passowrd
 - Delete your account
-- CRUD operations for todo's
-- Try to make a nice clean UI
+- Perform CRUD operations for todo's
+
+We also plan to integrate JWT's to protect routes.
