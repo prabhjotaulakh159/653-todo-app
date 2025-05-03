@@ -23,7 +23,12 @@ public class SecurityConfig {
           .permitAll()
           .anyRequest()
           .authenticated();
-      });
+      })
+
+      // i have to disable this for some reason, idk why
+      .csrf(csrf -> csrf.disable());
+
+    
 
     return httpSecurity.build();
   }
